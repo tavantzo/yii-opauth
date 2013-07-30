@@ -27,7 +27,7 @@
         "opauth/opauth": "dev-master"
     },
     "autoload": {
-        "cl": {
+        "psr-0": {
     		"": "."
 		}    
     },
