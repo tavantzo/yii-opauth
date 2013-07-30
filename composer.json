@@ -1,5 +1,5 @@
 {
-    "name": "gi",
+    "name": "kahwee/yii-opauth",
     "description": "Opauth for Yii Framework",
     "keywords":["opauth", "yii"],
     "version": "0.1.0-dev",
