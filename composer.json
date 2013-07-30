@@ -26,6 +26,11 @@
     "require": {
         "opauth/opauth": "dev-master"
     },
+    "autoload": {
+        "psr-0": {
+    		"": "."
+		}    
+    },
     "suggests": {
         "yiisoft/yii": "dev-master"
     }
