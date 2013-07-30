@@ -1,5 +1,5 @@
 {
-    "name": "kahwee/yii-opauth",
+    "name": "gi",
     "description": "Opauth for Yii Framework",
     "keywords":["opauth", "yii"],
     "version": "0.1.0-dev",
@@ -24,7 +24,7 @@
         "issues": "https://github.com/kahwee/yii-opauth/issues"
     },
     "require": {
-        "opauth/opauth": "dev-1.0-deps"
+        "opauth/opauth": "dev-master"
     },
     "suggests": {
         "yiisoft/yii": "dev-master"
