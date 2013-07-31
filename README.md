@@ -56,8 +56,6 @@ Edit your config and add the `vendor` alias into your import aliases in you conf
 
 ```
 
-Deploy it by placing it the whole opauth directory into `protected/modules/opauth`.
-
 And in your `./protected/config/main.php`, add `opauth` to begin:
 
 ```php
