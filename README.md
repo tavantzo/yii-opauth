@@ -25,7 +25,7 @@ Add into your main application composer.json the yii-opauth package, also add an
 
 ```
 
-Updat your composer packages
+Update your composer packages
 ```
 #> php composer.phar update
 ```
