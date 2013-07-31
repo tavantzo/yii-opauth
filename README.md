@@ -1,4 +1,4 @@
-Opauth for Yii Framework with the use of Composer
+Composer package for Opauth for Yii Framework
 =================================================
 
 What is Opauth for Yii Framework?
