@@ -8,7 +8,7 @@ Opauth for Yii Framework is a wrapper for [Opauth](https://github.com/uzyn/opaut
 
 Opauth provides a standardized way to interface with 3rd-party authentication providers. Unlike many current authentication frameworks, Opauth does not deal with database, so developers are not forced to adhere to predetermined database schema.
 
-You can include strategies from the [Opauth strategy list](https://github.com/uzyn/opauth/wiki/List-of-strategies).
+You can include strategies from the [Packagist](https://packagist.org/search/?q=opauth).
 
 How to make it work
 -------------------
