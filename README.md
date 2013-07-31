@@ -14,12 +14,13 @@ How to make it work
 -------------------
 Add into your main application composer.json the yii-opauth package
 ```js
-
+	...
 	"require" {
 		...
 		"kahwee/yii-opauth": "dev-master",
 		...
-	}
+	},
+	...
 
 ```
 
