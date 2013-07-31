@@ -12,6 +12,17 @@ You can include strategies from the [Opauth strategy list](https://github.com/uz
 
 How to make it work
 -------------------
+Add into your main application composer.json the yii-opauth package
+```js
+
+	"require" {
+		...
+		"kahwee/yii-opauth": "dev-master",
+		...
+	}
+
+```
+
 Add the composer autoloader into Yii. (If you haven't already)
 edit the `yiic.php` and `index.php` and add the following lines
 ```php
