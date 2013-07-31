@@ -12,12 +12,13 @@ You can include strategies from the [Opauth strategy list](https://github.com/uz
 
 How to make it work
 -------------------
-Add into your main application composer.json the yii-opauth package
+Add into your main application composer.json the yii-opauth package, also add any other opauth package you need from [Packagist](https://packagist.org/search/?q=opauth) that you want to implement
 ```js
 	...
 	"require" {
 		...
 		"kahwee/yii-opauth": "dev-master",
+		"opauth/facebook": "dev-master"
 		...
 	},
 	...
