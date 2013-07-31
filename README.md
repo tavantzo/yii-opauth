@@ -1,5 +1,5 @@
-Opauth for Yii Framework
-========================================
+Opauth for Yii Framework with the use of Composer
+=================================================
 
 What is Opauth for Yii Framework?
 -------------------
@@ -12,6 +12,21 @@ You can include strategies from the [Opauth strategy list](https://github.com/uz
 
 How to make it work
 -------------------
+YOu have to add the composer autoloader into Yii
+edit the `yiic.php` and `index.php` and add the following lines
+
+```php
+<?php
+...
+
+
+$compsetClassLoader = require_once __DIR__ . '/path/to/vendor/autoload.php';
+$compsetClassLoader->register();
+
+// Before the creation of the Yii application
+...
+
+```
 
 Deploy it by placing it the whole opauth directory into `protected/modules/opauth`.
 
@@ -22,6 +37,7 @@ And in your `./protected/config/main.php`, add `opauth` to begin:
 return array(
 	...
 	'modules' => array(
+		'class'=>'vendor.kahwee.yii-opauth.OpauthModule',
 		'opauth' => array(
 			'opauthParams' => array(
 				'Security.salt' => 'LDFmiilYf8Fyw5W10rx4W1KsVrieQCnpBzzpTBWA5vJidQKDx8pMJbmw28R1C4m',
