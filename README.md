@@ -12,18 +12,28 @@ You can include strategies from the [Opauth strategy list](https://github.com/uz
 
 How to make it work
 -------------------
-YOu have to add the composer autoloader into Yii
+Add the composer autoloader into Yii. (If you haven't already)
 edit the `yiic.php` and `index.php` and add the following lines
-
 ```php
 <?php
 ...
-
-
 $compsetClassLoader = require_once __DIR__ . '/path/to/vendor/autoload.php';
 $compsetClassLoader->register();
 
 // Before the creation of the Yii application
+...
+
+```
+
+Edit your config and add the `vendor` alias into your import aliases in you config files.
+(`config/main.php` and `config/console.php` probably)
+
+```php
+<?php
+...
+	'aliases'=>array(
+		'vendor'=>__DIR__ . '/path/to/vendor/'
+	)
 ...
 
 ```
