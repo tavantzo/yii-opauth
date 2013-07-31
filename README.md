@@ -32,6 +32,7 @@ Update your composer packages
 
 Add the composer autoloader into Yii. (If you haven't already)
 edit the `yiic.php` and `index.php` and add the following lines
+Note: Please skip this step if you are already using a different way to autoloading composer files.
 ```php
 <?php
 ...
