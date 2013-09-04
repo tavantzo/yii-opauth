@@ -36,8 +36,7 @@ Note: Please skip this step if you are already using a different way to autoload
 ```php
 <?php
 ...
-$compsetClassLoader = require_once __DIR__ . '/path/to/vendor/autoload.php';
-$compsetClassLoader->register();
+require_once __DIR__ . '/path/to/vendor/autoload.php';
 
 // Before the creation of the Yii application
 ...
